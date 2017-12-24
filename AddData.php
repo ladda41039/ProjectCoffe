@@ -19,6 +19,7 @@ if(is_uploaded_file($_FILES['fileupload']['tmp_name']))
 }else{
     echo"Upload  not complelte";
 };
+
 $sql="INSERT INTO tdproduct('Itemid','Itemname','Uniprice','Picture')values ('$PID',$Pname','$Pprice','$Url')";
 
 $sqlquery=mysql_db_query('coffeshop',$sql)or die ("ไม่สามารถเพิ่มข้อมูลได้ กรุณาตรวจสอบข้อมูลอีกครั้ง");

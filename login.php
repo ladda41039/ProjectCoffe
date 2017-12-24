@@ -48,13 +48,13 @@ body{
 	<script src="js/mobile.js" type="text/javascript"></script>
 </head>
 <body>
-	<div id="page">
+<!-- 	<div id="page">
 		<div id="header">
 				<div>
-						<a href="index.html" class="logo"><H1>Coffe Shop</H1></a>
+				<a href="index.html" class="logo" wi><img src="images/coffee.png" alt="" width="100" height="100"></a>
 						<ul id="navigation">
 								
-								<li class="selection"><a href="index.html">HOME</a></li>
+								<li class="selection"><a href="product.html">เครื่องดื่ม</a></li>
 								<li class="menu">
 									<a href="addproduct.html" class="addproduct">เพิ่มสินค้า</a>
 								</li>
@@ -62,13 +62,10 @@ body{
 								<li class="menu">
 									<a href="#choosseitem">แก้ไขข้อมูลสินค้า </a></li>
 							</ul>
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-							  </ul>
-						</ul>
 					</div>
 			</div>>
 		</div>
+		 -->
 <form name="form1" method="post" action="check_login.php">
   <table width="40%" border="0" cellpadding="1" align="center" cellspacing="1">
     <br>
