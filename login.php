@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>สำำหรับผู้ดูแลระบบ</title>
+	<title>สำหรับผู้ดูแลระบบ</title>
 </head>
 <style type="text/css">
 body{
